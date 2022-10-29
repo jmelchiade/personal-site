@@ -1,41 +1,40 @@
-h1 {
+/* h1 {
     margin-left: 50px;
     color: black;
     font-size: small;
     font-family: Georgia, 'Times New Roman', Times, serif;
   
-  }
-  
-  body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-  }
- 
-  h3{
-    font-family:cursive;
-    font-size: medium;
-    color: brown;
-  }
+  } */
 
-  h4{
-    font-family: cursive;
-    font-size:small;
-    justify-content: center;
-    color:black;
-  }
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
 
-  h2{
-    display:flex;
-    margin-top:5px;
-    padding-top:20px;
-    color: darkgreen;
-    justify-content: center;
-  }
+h3 {
+  font-family: cursive;
+  font-size: medium;
+  color: brown;
+}
 
-  p{
-    color:darkgreen;
-    font-size: x-large;
-    font-family: cursive;
-    margin-left: 50px;
-  }
- 
+h4 {
+  font-family: cursive;
+  font-size: small;
+  justify-content: center;
+  color: black;
+}
+
+h2 {
+  display: flex;
+  margin-top: 5px;
+  padding-top: 20px;
+  color: darkgreen;
+  justify-content: center;
+}
+
+p {
+  color: darkgreen;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+}

@@ -8,39 +8,38 @@
     color:darkgreen;
     justify-content: flex-end;
   } */
-header{
+/* header{
   display:flex;
   justify-content: space-between;
   background-color: goldenrod;
+} */
+
+.sideButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: darkolivegreen;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
+/* 
+.sideButton:hover {
+  background-color: pink;
+  color: ivory;
+} */
 
-  .sideButton{
-    display:flex;
-    flex-direction:row;
-    justify-content: right;
-    text-transform: uppercase;
-    padding-top: 10px;
-    color:darkolivegreen;
-   text-decoration: none;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-
-  }
-
-  .sideButton:hover{
-    background-color: pink;
-    color: ivory;
-  }
-
-  footer{
-  display:flex;
+/* footer {
+  display: flex;
   background: goldenrod;
-  padding: .5em 1em;
-  font-size: .5rem;
+  padding: 0.5em 1em;
+  font-size: 0.5rem;
   color: darkgreen;
-  }
+} */
 
-  img{
-    display:flex;
-    width: 30px;
-   margin-left: 200px;
-  }
+img {
+  display: flex;
+  width: 30px;
+  margin-left: 200px;
+}
