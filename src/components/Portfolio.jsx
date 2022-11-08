@@ -1,7 +1,14 @@
 import react from "react";
 
 const Portfolio = () => {
-  return <h1>Portfolio Component needs project links</h1>;
+  return (
+    <div>
+      <h1>
+        Portfolio Component needs project thumbnails, description and links
+      </h1>
+      ;
+    </div>
+  );
 };
 
 export default Portfolio;
