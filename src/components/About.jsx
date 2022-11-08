@@ -1,7 +1,7 @@
 import react from "react";
 import FortWorth from "../ForthWorth.JPG";
 
-const aboutImg = require("../ForthWorth.JPG");
+const aboutImg = new URL("./src/Images/FortWorth.JPG", import.meta.url);
 const About = () => {
   return (
     <div id="navbar">
@@ -21,7 +21,7 @@ const About = () => {
         University studies in International Relations, Agricultural Sciences,
         Landscape Architecture & Planning.
       </h4>
-      return <img src={FortWorth} alt="FortWorth" />;
+      <img src={aboutImg} />;
     </div>
   );
 };
