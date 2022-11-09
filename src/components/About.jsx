@@ -1,10 +1,10 @@
-import react from "react";
-import FortWorth from "../ForthWorth.JPG";
+import React from "react";
+import aboutImg from "./FortWorth.JPG";
 
-const aboutImg = new URL("./src/Images/FortWorth.JPG", import.meta.url);
 const About = () => {
   return (
     <div id="navbar">
+      <img src={aboutImg} alt="Fort Worth" id="aboutImg"></img>
       <h1>About Needs Routing</h1>
       <h2>
         Fullstack Software Developer.
